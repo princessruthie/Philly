@@ -10,9 +10,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by fieldsru on 7/3/16.
- */
 public class LocationAdapter extends ArrayAdapter<Location> {
 
     public LocationAdapter(Context context, ArrayList<Location> locations, int colorResourceId) {
@@ -40,10 +37,10 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         titleTextView.setText(currentLocation.getTitle());
         addressTextView.setText(currentLocation.getAddress());
 
-        if (currentLocation.hasImage()){
-            imageView.setImageResource(currentLocation.getImageResouørceId());
+        if (currentLocation.hasImage()) {
+            imageView.setImageResource(currentLocation.getImageResourceId());
             imageView.setVisibility((View.VISIBLE));
-        } else{
+        } else {
             imageView.setVisibility(View.GONE);
         }
         return listItemView;

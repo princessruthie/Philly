@@ -5,6 +5,11 @@ package com.ruthiefloats.philly;
  */
 public class Location {
 
+    private static final int NO_IMAGE_PROVIDED = -1;
+    private String mTitle;
+    private String mAddress;
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+
     public String getTitle() {
         return mTitle;
     }
@@ -13,28 +18,22 @@ public class Location {
         return mAddress;
     }
 
-    public int getImageResouørceId() {
-        return mImageResouørceId;
+    public int getImageResourceId() {
+        return mImageResourceId;
     }
-
-    private static final int NO_IMAGE_PROVIDED = -1;
-
-    private String mTitle;
-    private String mAddress;
-    private int mImageResouørceId = NO_IMAGE_PROVIDED;
 
     public Location(String title, String address) {
         mTitle = title;
         mAddress = address;
     }
 
-    public Location(String title, String address, int imageResouørceId) {
+    public Location(String title, String address, int imageResourceId) {
         mTitle = title;
         mAddress = address;
-        mImageResouørceId = imageResouørceId;
+        mImageResourceId = imageResourceId;
     }
 
     public boolean hasImage() {
-        return mImageResouørceId != NO_IMAGE_PROVIDED;
+        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 }
