@@ -13,14 +13,14 @@ public class HistoricalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.locations_list);
 
-        ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("The Liberty Bell", "123 Broad Street"));
-        locations.add(new Location("Rocky Statue","4422 Chestnut Ave"));
-        locations.add(new Location("The Love Sculpture","8000 Walnut Street"));
-        locations.add(new Location("City Hall","1 Freedom Terrace"));
-        locations.add(new Location("The Art Museum","625 Independence Mall"));
-        locations.add(new Location("The Mutter Museum","1401 Hillbrand Ave"));
-        locations.add(new Location("South Street","225 S. Street"));
+        ArrayList<Location> locations = new ArrayList<>();
+        locations.add(new Location(getString(R.string.historical_1), getString(R.string.historical_1_address)));
+        locations.add(new Location(getString(R.string.historical_2),getString(R.string.historical_2_address)));
+        locations.add(new Location(getString(R.string.historical_3),getString(R.string.historical_3_address)));
+        locations.add(new Location(getString(R.string.historical_4),getString(R.string.historical_4_address)));
+        locations.add(new Location(getString(R.string.historical_5),getString(R.string.historical_5_address)));
+        locations.add(new Location(getString(R.string.historical_6),getString(R.string.historical_6_address)));
+        locations.add(new Location(getString(R.string.historical_7),getString(R.string.historical_7_address)));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
         ListView listView = (ListView) findViewById(R.id.list);
