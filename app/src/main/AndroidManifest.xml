@@ -15,13 +15,17 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".RestaurantsActivity">
+        <activity android:name=".RestaurantsActivity"
+        android:label="@string/category_restaurants">
         </activity>
-        <activity android:name=".HistoricalActivity">
+        <activity android:name=".HistoricalActivity"
+            android:label="@string/category_historical">
         </activity>
-        <activity android:name=".ParksActivity">
+        <activity android:name=".ParksActivity"
+            android:label="@string/category_parks">
         </activity>
-        <activity android:name=".HotelsActivity">
+        <activity android:name=".HotelsActivity"
+            android:label="@string/category_hotels">
         </activity>
     </application>
 
