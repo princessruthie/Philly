@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Philly</string>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_historical">Historical Sites</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_hotels">Hotels</string>
+</resources>
