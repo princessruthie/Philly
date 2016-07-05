@@ -13,16 +13,16 @@
         <!-- Background color for app -->
         <color name="tan_background">#ffffe9</color>
 
-        <!-- Background color for the numbers category -->
+        <!-- Background color for the restaurants category -->
         <color name="category_restaurants">#836a48</color>
 
-        <!-- Background color for the family members category -->
+        <!-- Background color for the historical category -->
         <color name="category_historical">#48602d</color>
 
-        <!-- Background color for the colors category -->
+        <!-- Background color for the parks category -->
         <color name="category_parks">#ab2d2d</color>
 
-        <!-- Background color for the phrases category -->
+        <!-- Background color for the hotels category -->
         <color name="category_hotels">#453228</color>
 
 

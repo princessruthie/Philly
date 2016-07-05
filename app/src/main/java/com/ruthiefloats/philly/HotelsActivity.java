@@ -31,8 +31,6 @@ public class HotelsActivity extends AppCompatActivity {
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
         ListView listView = (ListView) findViewById(R.id.list);
-
         listView.setAdapter(adapter);
-
     }
 }

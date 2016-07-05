@@ -15,12 +15,12 @@ public class HistoricalActivity extends AppCompatActivity {
 
         ArrayList<Location> locations = new ArrayList<>();
         locations.add(new Location(getString(R.string.historical_1), getString(R.string.historical_1_address)));
-        locations.add(new Location(getString(R.string.historical_2),getString(R.string.historical_2_address)));
-        locations.add(new Location(getString(R.string.historical_3),getString(R.string.historical_3_address)));
-        locations.add(new Location(getString(R.string.historical_4),getString(R.string.historical_4_address)));
-        locations.add(new Location(getString(R.string.historical_5),getString(R.string.historical_5_address)));
-        locations.add(new Location(getString(R.string.historical_6),getString(R.string.historical_6_address)));
-        locations.add(new Location(getString(R.string.historical_7),getString(R.string.historical_7_address)));
+        locations.add(new Location(getString(R.string.historical_2), getString(R.string.historical_2_address)));
+        locations.add(new Location(getString(R.string.historical_3), getString(R.string.historical_3_address)));
+        locations.add(new Location(getString(R.string.historical_4), getString(R.string.historical_4_address)));
+        locations.add(new Location(getString(R.string.historical_5), getString(R.string.historical_5_address)));
+        locations.add(new Location(getString(R.string.historical_6), getString(R.string.historical_6_address)));
+        locations.add(new Location(getString(R.string.historical_7), getString(R.string.historical_7_address)));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
         ListView listView = (ListView) findViewById(R.id.list);
